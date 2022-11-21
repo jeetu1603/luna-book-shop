@@ -38,7 +38,8 @@ const Update = () => {
         name="title"
         onChange={handleChange}
       />
-      <input
+      <textarea
+        rows={5}
         type="text"
         placeholder="desc"
         name="desc"

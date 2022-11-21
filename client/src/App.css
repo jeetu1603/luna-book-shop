@@ -45,6 +45,16 @@ img {
   color: rgb(139, 139, 234);
 }
 
+.addHome {
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -55,6 +65,10 @@ input {
   width: 250;
   padding: 10px;
   border: 1px solid gray;
+}
+
+textarea {
+  padding: 10px;
 }
 
 .formButton {
